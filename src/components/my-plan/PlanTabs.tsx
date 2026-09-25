@@ -27,7 +27,7 @@ const PlanTabs = () => {
               : "text-gray-500 hover:text-white"
           }`}
         >
-          Today's Plan
+         <span>Today's Plan</span> 
         </Link>
 
         <Link
