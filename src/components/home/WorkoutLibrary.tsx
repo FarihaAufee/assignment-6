@@ -33,10 +33,9 @@ const WorkoutLibrary = ({ workouts }: WorkoutLibraryProps) => {
 >
       <div className="container-main mx-auto max-w-[1440px]">
 
-        {/* Section Header */}
         <div className="flex flex-col gap-6 border-b border-[#242832] pb-8 md:flex-row md:items-end md:justify-between">
 
-          {/* Heading */}
+    
           <div>
             <p className="mb-5 font-semibold tracking-[0.1em] text-[#CCFF00]">
               The Library
@@ -48,7 +47,7 @@ const WorkoutLibrary = ({ workouts }: WorkoutLibraryProps) => {
             </p>
           </div>
 
-          {/* Sort */}
+
           <div className="flex items-center gap-3">
             <span className="text-xs font-medium uppercase tracking-wider text-gray-500">
               Sort by
@@ -75,7 +74,7 @@ const WorkoutLibrary = ({ workouts }: WorkoutLibraryProps) => {
           </div>
         </div>
 
-        {/* Workout Count */}
+
         <div className="py-7">
           <p className="text-sm text-gray-500">
             Showing{" "}
