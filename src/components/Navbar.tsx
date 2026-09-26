@@ -71,7 +71,7 @@ const Navbar = () => {
           </Link>
         </div>
 
-        {/* Desktop Plan & Saved */}
+
         <div className="hidden items-center gap-3 md:flex">
 
           {/* Plan */}
@@ -82,13 +82,13 @@ const Navbar = () => {
             <ClipboardList size={16} />
             <span>Plan</span>
 
-            {/* Temporary count */}
+
             <span className="flex h-5 min-w-5 items-center justify-center rounded-full bg-black px-1.5 text-xs text-[#CCFF00]">
   {plannedWorkouts.length}
 </span>
           </Link>
 
-          {/* Saved */}
+
           <Link
              href="/my-plan?tab=saved"
             className="flex items-center gap-2 rounded-full border border-[#3A3F48] px-4 py-2 text-sm font-medium text-white transition hover:border-[#CCFF00]"
@@ -96,7 +96,7 @@ const Navbar = () => {
             <Bookmark size={16} />
             <span>Saved</span>
 
-            {/* Temporary count */}
+
             <span className="flex h-5 min-w-5 items-center justify-center rounded-full bg-[#242832] px-1.5 text-xs">
   {savedWorkouts.length}
 </span>
